@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+body {
+    background-color: palevioletred;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header .row,
+footer .row {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    margin: 0;
+    padding: 5px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 20px;
+    margin: 0;
+    font-size: 50px;
+}
